@@ -1,0 +1,30 @@
+body {
+    background-color:hsl(212, 45%, 89%);
+}
+.main {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position:absolute;
+     width: 100%;
+     height: 100%;
+}
+.qr {
+     border-radius: 20px;
+     background:hsl(0, 0%, 100%);
+     padding: 20px; 
+     width: 250px;
+     height: 350px;
+     display:flex;
+     align-items: center; 
+     position: absolute; 
+  }
+.QR-code {
+     position: absolute;
+     width: 230px;
+     border-radius: 12px;
+     margin: 0 auto 130px 0;
+     top: 24px;
+     left: 28px;
+     right: 20px;
+}
